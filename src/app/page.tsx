@@ -6,7 +6,7 @@ import WhyChooseUs from '@/components/WhyChooseUs';
 import FeaturedWabinars from "@/components/FeaturedWabinars";
 import React from "react";
 import TestiMonialCard from "@/components/TestiMonialCard";
-import Instructor from "@/components/ui/instructor";
+
 
 
 
@@ -20,7 +20,7 @@ export const page = () => {
       <FeaturedWabinars/>
       <FeaturedCourses/>
       <TestiMonialCard/>
-      <Instructor/>
+    
       <Footer/>
 
 
