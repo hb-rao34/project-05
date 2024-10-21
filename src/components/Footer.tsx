@@ -27,7 +27,7 @@ function Footer() {
               <li><a href="=" className="hover:text-white">Twitter</a></li>
               <li><a href="https://www.linkedin.com/in/habiba-rao-233b5032b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-white">LinkedIn</a></li>
               <li><a href="https://github.com/hb-rao34" className="hover:text-white">Github</a></li>
-              <li><a href="https://mfaizanakram.vercel.app/" className="hover:text-white">Portfolio</a></li>
+              <li><a href="" className="hover:text-white">Portfolio</a></li>
               <li><a href="https://www.instagram.com/habibarao.39?igsh=MTUxZjJwMnc0dDhzcQ==" className="hover:text-white">Instagram</a></li>
               <li><a href="https://www.facebook.com/habiba.rao.39?mibextid=ZbWKwL=" className="hover:text-white">FaceBook</a></li>
               </ul>

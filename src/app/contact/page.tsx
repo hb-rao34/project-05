@@ -1,10 +1,13 @@
+
+
 "use client";
+
 import React from 'react';
 import { Meteors } from '@/components/ui/meteors';
 import Image from 'next/image';
+import avaImage from '@/app/public/contact06.png';
 
-
-const Contact = () => {
+const ContactPage = () => {
   return (
     <div className="min-h-screen bg-[#0a0e27] py-12 pt-36 relative overflow-hidden flex justify-center items-center">
       <Meteors number={30} className="opacity-70" />
@@ -33,10 +36,19 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        
+        <div className="hidden md:flex items-center justify-center w-1/2">
+          <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-gray-700">
+            <Image
+              src={avaImage}
+              alt="Contact Us"
+              fill
+              className="rounded-full"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
 }
 
-export default Contact;
+export default ContactPage;

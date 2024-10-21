@@ -1,11 +1,13 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
-
 import { Spotlight } from "@/components/ui/Spotlight";
 import WhyChooseUs from '@/components/WhyChooseUs';
 import FeaturedWabinars from "@/components/FeaturedWabinars";
 import React from "react";
+import TestiMonialCard from "@/components/TestiMonialCard";
+import Instructor from "@/components/ui/instructor";
+
 
 
 export const page = () => {
@@ -17,6 +19,8 @@ export const page = () => {
       <WhyChooseUs/>
       <FeaturedWabinars/>
       <FeaturedCourses/>
+      <TestiMonialCard/>
+      <Instructor/>
       <Footer/>
 
 
