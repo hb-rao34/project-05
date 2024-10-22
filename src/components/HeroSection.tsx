@@ -25,12 +25,9 @@ const HeroSection = () => {
         <div className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">
           {/* Courses page par navigate karne ke liye button */}
           <Link href="/courses">
-          <Button
-        borderRadius="1.75rem"
-        className="bg-black dark:bg-slate-900 text-white dark:text-white border-neutral-200 dark:border-slate-800"
-      >
-        Explore Courses
-      </Button>
+          <Button borderRadius="1.75rem" className=" bg-black  text-white  border-slate-800">
+              Explore courses
+            </Button>
           </Link>
         </div>
 

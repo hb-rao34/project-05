@@ -31,7 +31,7 @@ export const MenuItem = ({
     >
       <motion.p
         transition={transition} 
-        className={`cursor-pointer text-black hover:text-gray-300 ${active === item ? 'font-bold' : ''}`} 
+        className={`cursor-pointer text-white hover:text-gray-300 ${active === item ? 'font-bold' : ''}`} 
       >
         {children}
       </motion.p>
@@ -41,7 +41,7 @@ export const MenuItem = ({
 
 export const Menu = ({ children }: { children: React.ReactNode }) => {
   return (
-    <nav className="relative rounded-full border border-transparent bg-white shadow-input flex justify-center space-x-4 px-8 py-6">
+    <nav className="relative rounded-full border border-transparent bg-black shadow-input flex justify-center space-x-4 px-8 py-6">
       {children}
     </nav>
   );

@@ -1,6 +1,7 @@
+
 "use client";
 
-import { cn } from "../../lib/utils";
+import { cn } from "@/lib/utils";
 import React, { createContext, useState, useContext, useRef, useEffect, useCallback } from "react";
 
 type MouseEnterContextType = [boolean, React.Dispatch<React.SetStateAction<boolean>>];

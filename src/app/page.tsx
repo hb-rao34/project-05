@@ -6,6 +6,8 @@ import FeaturedCourses from '@/components/FeaturedCourses';
 import TestiMonialCard from '@/components/TestiMonialCard';
 import FeaturedWebinars from '@/components/FeaturedWabinars';
 import WhyChooseUs from '@/components/WhyChooseUs'
+import Footer from '@/components/Footer';
+
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
       <WhyChooseUs/>
       <TestiMonialCard />
       <FeaturedWebinars />
+      <Footer/>
+      
     </main>
   );
 }
