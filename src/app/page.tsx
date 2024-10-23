@@ -3,6 +3,7 @@ import { Spotlight } from '@/components/ui/Spotlight';
 import FeaturedCourses from '@/components/FeaturedCourses';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import FeaturedWabinars from '@/components/FeaturedWabinars';
+import TestiMonialCard from '@/components/TestiMonialCard';
 import Footer from '@/components/Footer';
 import React from 'react'
 
@@ -16,6 +17,7 @@ const page = () => {
 <FeaturedCourses/>
 <WhyChooseUs/>
 <FeaturedWabinars/>
+<TestiMonialCard/>
 <Footer/>
 
     </div>
